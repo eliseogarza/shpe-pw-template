@@ -1,0 +1,30 @@
+/* Creates global color variables (accessed via: var(--text-color) etc.) */
+
+:root{
+    --text-color: #ffffff;
+}
+
+body, html {
+    /* Define these as you like */
+
+    /* background-color: ; */
+    /* font-family: ; */
+
+    height: 100vh;
+    width: 100%;
+    
+    /* Adjust depending on how you want to implement your background */
+
+    /* background-position: center; */
+    /* background-repeat: repeat; */
+    /* background-size: cover; */
+
+    /* Use smooth scrolling so that when using "bookmarks" it doesn't instantly teleport you */
+    scroll-behavior: smooth;
+}
+
+/* Example on how you would use the global "--text-color" variable */
+
+/* h1 {
+    color: var(--text-color);
+} */
