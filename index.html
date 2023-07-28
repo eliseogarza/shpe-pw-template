@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- INSERT YOUR WEBSITE TITLE/NAME HERE -->
-	<title>Sample Title</title> 
+    <!-- TODO: INSERT YOUR WEBSITE TITLE/NAME HERE -->
+	<title>Eliseo Garza</title> 
 
 	<!-- Importing bootstrap css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -26,16 +26,86 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	
-    <!-- PUT THE NAME OF YOUR CSS FILE HERE -->
-	<link rel="stylesheet" href="main.css">
+    <!-- TODO: PUT THE NAME OF YOUR CSS FILE HERE -->
+	<link rel="stylesheet" href="style.css">
 
-    <!-- CAN ADD KEYWORDS AND DESCRIPTION - When your website pops up, the description will be shown -->
-	<meta name="keywords" content="Name, Portfolio, Student, Texas A&M, 2025">
-    <meta name="description" content="This a Portfolio Website used to showcase my experience and projects.">
+    <!-- TODO: CAN ADD KEYWORDS AND DESCRIPTION - When your website pops up, the description will be shown -->
+	<meta name="keywords" content="Eliseo Garza, Portfolio, Student, Texas A&M, 2025, Computer Science">
+    <meta name="description" content="This is a Portfolio Website used to showcase my experience and projects.">
 </head>
 
 <body>
     <!-- Most if not all of your content will go here -->
+
+	<!---------------------------------- Navigation Bar Section ---------------------------------->
+
+	<nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-dark" id="navbar-hide">
+
+		<!-- Creating a flex box that makes "flex items" -->
+		<div class="navbar-header d-flex col">
+
+			<!-- Logo now takes you to your name/introduction via bookmark -->
+			<a class="navbar-brand" href="#introduction">
+				<img src="assets/LogoV1.png" style= width:45px style= height:30px alt="Logo">
+			</a>
+
+			<!-- ml-auto creates margins on the left and pushes dropdown toggle to the far right -->
+			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" 
+			data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" 
+			aria-label="Toggle navigation">
+
+				<span class="navbar-toggler-icon"></span>
+
+			</button>
+		</div>
+		
+		
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<div class="navbar-nav">
+
+				<!-- Update so href ("link") takes users to bookmarked location (FIXME) -->
+				<a class="nav-item nav-link" href="#about-me">About Me</a>
+				<a class="nav-item nav-link" href="#experience">Experience</a></li>
+				<a class="nav-item nav-link" href="#projects">Projects</a></li>
+				<a class="nav-item nav-link" href="#contact-me">Contact Me</a></li>
+			</div>
+			
+			<!-- No longer part of list in nav bar, ml-auto pushes it to the right of the navbar, it's now also a button with an outline -->
+			<!-- UPDATE RESUME LINK (FIXME) -->
+			<a href="assets/xyz-resume.pdf" class="ml-auto" target="_blank"><button type="button" 
+			   class="btn btn-sm btn-outline-dark" style="color: #ffffff">Resume</button></a>
+		</div>
+	</nav>
+
+	<!---------------------------------- Introduction Section ---------------------------------->
+
+	<!-- Name, A&M class, major, intro-content makes the original background image darker -->
+	<div class="container-fluid background-img" id="introduction">
+		<div class="row justify-content-center">
+			<div class="name">Eliseo Garza</div>
+		</div>
+		
+		<div class="row justify-content-center">
+			<div class="background-text">Texas A&M '25 | Computer Science</div>
+		</div>
+	</div>
+
+	<!---------------------------------- About Me Section ---------------------------------->
+
+	<!-- TODO: Continue working here on About Me Section -->
+
+	<div class="container-fluid" id="about-me">
+		<div class="row justify-content-center">
+			<div class="row justify-content-center bottom-space">
+				<h1>About Me</h1>
+			</div>
+		</div>
+
+
+
+		</div>
+	</div>
+
 </body>
 
 <!-- Closing tag, ignore this -->
