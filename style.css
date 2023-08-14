@@ -7,8 +7,8 @@
 body, html {
     /* Define these as you like */
 
-    background-color: silver; /* rosybrown */
-    /* font-family: ; */
+    background-color: teal; /* rosybrown */
+    font-family: 'Montserrat', sans-serif;
 
     height: 100vh;
     width: 100%;
@@ -37,9 +37,8 @@ body, html {
 
 /* -------------------------------- Navigation Bar Section -------------------------------- */
 
-/* Defining the font and size for the Navigation Bar Text */
+/* Defining the font size for the Navigation Bar Text */
 nav {
-    font-family: 'Montserrat', sans-serif; /* Orig Segoe UI Symbol */
     font-size: 17px;
 }
 
