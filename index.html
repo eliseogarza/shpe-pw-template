@@ -63,7 +63,7 @@
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<div class="navbar-nav">
 
-				<!-- Update so href ("link") takes users to bookmarked location (FIXME) -->
+				<!-- TODO: Update so href ("link") takes users to bookmarked location -->
 				<a class="nav-item nav-link" href="#about-me">About Me</a>
 				<a class="nav-item nav-link" href="#experience">Experience</a></li>
 				<a class="nav-item nav-link" href="#projects">Projects</a></li>
@@ -71,7 +71,7 @@
 			</div>
 			
 			<!-- No longer part of list in nav bar, ml-auto pushes it to the right of the navbar, it's now also a button with an outline -->
-			<!-- UPDATE RESUME LINK (FIXME) -->
+			<!-- TODO: UPDATE RESUME LINK -->
 			<a href="assets/xyz-resume.pdf" class="ml-auto" target="_blank"><button type="button" 
 			   class="btn btn-sm btn-outline-dark" style="color: #ffffff">Resume</button></a>
 		</div>
@@ -79,7 +79,7 @@
 
 	<!---------------------------------- Introduction Section ---------------------------------->
 
-	<!-- Name, A&M class, major, intro-content makes the original background image darker -->
+	<!-- TODO: Name, A&M class, major, intro-content makes the original background image darker -->
 	<div class="container-fluid background-img" id="introduction">
 		<div class="row justify-content-center">
 			<div class="name">Eliseo Garza</div>
@@ -92,17 +92,245 @@
 
 	<!---------------------------------- About Me Section ---------------------------------->
 
-	<!-- TODO: Continue working here on About Me Section -->
-
+	<!-- Title for starting "About Me" page -->
 	<div class="container-fluid" id="about-me">
 		<div class="row justify-content-center">
-			<div class="row justify-content-center bottom-space">
+			<div class="row justify-content-center bottom-space h1Format">
 				<h1>About Me</h1>
 			</div>
 		</div>
 
+		<div class="row justify-content-center">
+			<div class="col-lg-6 my-auto" style="padding-bottom: 6vmin;">
+				
+				<!-- Creates circle with glowing halo behind it (and your headshot in the middle) -->
+				<!-- TODO: Add your headshot here! -->
+				<div class="row justify-content-center about-circle mx-auto">
+					<img src="assets/newHeadshot.png" alt="Headshot">
+				</div>
+			</div>
+
+			<div class="col-lg-6 text-left about-text my-auto" style="padding-bottom: 6vmin;">
+				<div class="row aboutMe-box">
+
+					<div class="about-spacing">
+
+						<!-- TODO: Change or adjust about me description! -->
+						<!-- Added cool effects to parts of the "text" by using links and css -->
+						<!-- If you want to remove them, delete everything between the <a> to </a> tags -->
+						<p>My name is Eliseo Garza and I’m a junior majoring in Computer Science at 
+							<a href="https://engineering.tamu.edu/" target="_blank" class="aboutMe-link">Texas A&M University</a>	
+							 with an ambition to help others advance their programming knowledge.
+							I currently serve as the Director of Technical Affairs within 
+							<a href="https://www.tamushpe.org/index.html" target="_blank" class="aboutMe-link">TAMU SHPE</a>
+							. I’ve focused on contributing to members' technical and professional development through workshops and guides.
+						</p>
+						<br>
+						<p>In my free time, I enjoy working on personal projects, playing soccer, going to the gym, or trying something new!</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!---------------------------------- Experience Section ---------------------------------->
+
+	<div class="container-fluid" id="experience">
+		<div class="row">
+			<div class="col-md-9 mx-auto text-center">
+					<h1 class="bottom-space h1Format">Experience</h1>
+			</div>
+
+			<div class="col-md-9 mx-auto" style="padding-bottom: 4vmin;">
+
+				<!------------------- Start of Experience #1 ------------------->
+				<div class="row rounded-box">
+					<div class="col-lg-5 my-auto">
+						<div class="row box-padding justify-content-center">
+
+							<!-- TODO: Add an image of your experience here! 
+								P.S. -> Change the alt text to something that describes the image -->
+							<img src="assets/college-of-engineering-logo.png" class="box-image" alt="Texas A&M College of Engineering Logo">
+						</div>
+					</div>
+
+					<div class="col-lg-7 box-padding">
+						<div class="row justify-content-center">
+
+							<!-- TODO: Change the name of your experience -->
+							<h3 class="text-center h3Format" style="margin-bottom: 2vmin;">Engineering Peer Teacher</h3>
+						</div>
+
+						<div class="row justify-content-center" style="margin: auto !important;">
+
+							<!-- TODO: Add your description of the experience! -->
+							<p>Ensured academic success for over 40 students by guiding them through basic python topics, code
+								implementations, and course assignments. Responsible for grading over 50 assignments per week while providing targeted feedback to students.
+							</p>
+						</div>
+					</div>	
+				</div>
+				<!------------------- End of #1 ------------------->
 
 
+				<!------------------- Start of Experience #2 ------------------->
+				<div class="row rounded-box">
+					<div class="col-lg-5 my-auto">
+						<div class="row box-padding justify-content-center">
+
+							<!-- TODO: Add an image of your experience here! 
+								P.S. -> Change the alt text to something that describes the image -->
+							<img src="assets/sec-logo.png" class="box-image" alt="SEC Logo">
+						</div>
+					</div>
+
+					<div class="col-lg-7 box-padding">
+						<div class="row justify-content-center">
+
+							<!-- TODO: Change the name of your experience -->
+							<h3 class="text-center h3Format" style="margin-bottom: 2vmin;">SEC Directed Internship (MathWorks)</h3>
+						</div>
+
+						<div class="row justify-content-center" style="margin: auto !important;">
+
+							<!-- TODO: Add your description of the experience! -->
+							<p>Collaborated to design a solution that would prevent flooding and minimize hazards due to rising sea levels. Developed a script 
+								through MATLAB using over 1 million data points to allow users to input a future date and receive an approximation of the rise in sea level.
+								Established a financial plan based off of similar projects while showcasing a potential timeline for the
+								construction and development of wetlands.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!------------------- End of #2 ------------------->
+
+
+				<!------------------- Start of Experience #3 ------------------->
+				<div class="row rounded-box">
+					<div class="col-lg-5 my-auto">
+						<div class="row box-padding justify-content-center">
+
+							<!-- TODO: Add an image of your experience here! 
+								P.S. -> Change the alt text to something that describes the image -->
+							<img src="assets/shpe-logo.jpg" class="box-image" alt="SHPE Logo">
+						</div>
+					</div>
+
+					<div class="col-lg-7 box-padding">
+						<div class="row justify-content-center">
+
+							<!-- TODO: Change the name of your experience -->
+							<h3 class="text-center h3Format" style="margin-bottom: 2vmin;">Society of Hispanic Professional Engineers</h3>
+						</div>
+
+						<div class="row justify-content-center" style="margin: auto !important;">
+
+							<!-- TODO: Add your description of the experience! -->
+							<p>Utilized JavaScript to maintain and update an Automated Point Sheet responsible for calculating membership
+								points of 300+ members within the organization. Assisted students through the maintenance and development 
+								of online guides such as a chemistry guide. Introduced members to fundamental front-end web development 
+								through weekly meetings consisting of relevant programming examples and applications.
+							</p>
+						</div>
+					</div>	
+				</div>
+				<!------------------- End of #3 ------------------->
+
+
+			</div>
+		</div>
+	</div>
+
+	<!---------------------------------- Projects Section ---------------------------------->
+
+	<div class="container-fluid" id="projects">
+		<div class="row">
+			<div class="col-md-9 mx-auto text-center">
+					<h1 class="bottom-space h1Format">Projects</h1>
+			</div>
+
+			<div class="col-md-9 mx-auto" style="padding-bottom: 4vmin;">
+
+				<!------------------- Start of Project #1 ------------------->
+				<div class="row rounded-box">
+					<div class="col-lg-5 my-auto">
+						<div class="row box-padding justify-content-center">
+
+							<!-- TODO: Add an image of your project here! 
+								P.S. -> Change the alt text to something that describes the image -->
+							<img src="assets/chem-guide-snippet.jpg" class="box-image" alt="Chemistry Guide Image">
+						</div>
+					</div>
+
+					<div class="col-lg-7 box-padding">
+						<div class="row justify-content-center">
+
+							<!-- TODO: Change the name of your experience -->
+							<h3 class="text-center h3Format" style="margin-bottom: 2vmin;">Chemistry Guide</h3>
+						</div>
+
+						<div class="row justify-content-center" style="margin: auto !important;">
+
+							<!-- TODO: Add your description of the experience! -->
+							<p>I created a chemistry guide using Markdown files, Docusaurus, and GitHub repositories to serve as a resource for
+								students taking related courses. Additionally, I outlined the process required to build and maintain guides for 
+								both current and future contributors.
+							</p>
+						</div>
+					</div>		
+				</div>
+				<!------------------- End of #1 ------------------->
+
+
+				<!------------------- Start of Project #2 ------------------->
+				<div class="row rounded-box">
+					<div class="col-lg-5 my-auto">
+						<div class="row box-padding justify-content-center">
+
+							<!-- TODO: Add an image of your project here! 
+								P.S. -> Change the alt text to something that describes the image -->
+							<img src="assets/portfolio-website-snippet.jpg" class="box-image" alt="Portfolio Website Image">
+						</div>
+					</div>
+
+					<div class="col-lg-7 box-padding">
+						<div class="row justify-content-center">
+
+							<!-- TODO: Change the name of your experience -->
+							<h3 class="text-center h3Format" style="margin-bottom: 2vmin;">Portfolio Website</h3>
+						</div>
+
+						<div class="row justify-content-center" style="margin: auto !important;">
+
+							<!-- TODO: Add your description of the experience! -->
+							<p>This website was created to showcase both my experiences and projects that I've been a part of. I designed and 
+								developed this website using HTML5 and CSS while hosting it through GitHub Pages. Additionally, I imported and 
+								utilized Bootstrap to ensure responsiveness on a variety of screen sizes.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!------------------- End of #2 ------------------->
+
+
+			</div>
+		</div>
+	</div>
+	
+	<!---------------------------------- Contact Me Section ---------------------------------->
+	
+	<div class="container-fluid" id="contact-me">
+		<div class="row justify-content-center">
+			<h1>Contact Me</h1>
+		</div>
+
+		<div class="row justify-content-center" style="padding-bottom: 7vmin;">
+
+			<!-- TODO: Replace these links with your own GitHub & LinkedIn links! -->
+			<a href="https://github.com/" class="social-spacing" target="_blank"><i class ="fab fa-github"></i></a>
+			<a href="https://www.linkedin.com/" class="social-spacing" target="_blank"><i class ="fab fa-linkedin"></i></a>
 		</div>
 	</div>
 
